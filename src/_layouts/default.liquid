@@ -6,10 +6,10 @@ layout: base
   {% if fileslug %}
   {% include 'aside' %}
   {% endif %}
+  {% include 'pagination' %}
   <h1>{{ title | capitalize }}</h1>
   {{ content }}
   {% if fileslug %}
-  {% include 'pagination' %}
   {% endif %}
 </main>
 {% include 'footer' %}
