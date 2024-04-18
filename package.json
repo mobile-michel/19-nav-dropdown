@@ -1,12 +1,12 @@
 {
-  "name": "1d-basic-liquid-simple",
+  "name": "19-nav-dropdown",
   "version": "1.0.0",
   "description": "Eleventy 2.0.1 basic template with Liquid templating & Simple CSS framework",
   "main": "eleventy.config.js",
   "scripts": {
     "start": "npx @11ty/eleventy --serve",
     "build": "eleventy",
-    "debug": "DEBUG=* eleventy"
+    "build-gp": "eleventy --pathprefix '19-nav-dropdown'"
   },
   "keywords": [
     "eleventy",
